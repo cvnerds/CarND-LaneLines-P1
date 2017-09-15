@@ -64,5 +64,3 @@ A possible improvement would be to use some sort of adaptive thresholding to be 
 As mentioned before it would be helpul to try to segment the road surface to adjust the ROI. We anticipate problems in curves. By identifying the how the line slope changes we could adjust the ROI accordingly.
 
 To be more robust towards outliers we could use median values instead of mean values. To improve upon filtering the lines between consecutive frames a Kalman filter could be used.
-
-Another potential improvement could be to ...
